@@ -88,6 +88,7 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   border-radius: 4px;
+  letter-spacing: 0.03em;
 }
 
 .secondary.button {
@@ -138,16 +139,9 @@ img {
 }
 
 .page-nav {
-  display: flex;
   align-items: center;
 }
 
-.nav-list {
-  display: flex;
-}
-
-.nav-list li {
-}
 .nav-list > .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -175,8 +169,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.header-contact .item {
-}
+
 .header-contact .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -208,6 +201,7 @@ img {
 .hero-title {
   margin: auto;
   max-width: 696px;
+  margin-bottom: 30px;
 
   color: var(--white-text-color);
   font-weight: 900;
@@ -219,15 +213,12 @@ img {
 }
 
 /* Преимущества */
-.section .advantages {
+.section.advantages {
   padding-bottom: 0;
 }
 
-.advantages .list {
-  display: flex;
-}
-
 .advantages-item {
+  width: calc((100% - 90px) / 4);
 }
 
 /* всем елементам флексбокса кроме последнего задает марджин  */
@@ -258,7 +249,6 @@ img {
 /* Чем мы занимаемся*/
 
 .work .list {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -284,7 +274,6 @@ img {
 }
 
 .staff .list {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -371,9 +360,6 @@ footer .accent {
 /* portfolio.html */
 .selector {
   justify-content: center;
-}
-
-.selector .item {
   margin-bottom: 50px;
 }
 
@@ -408,8 +394,11 @@ footer .accent {
 }
 
 .galery .text-content {
-  margin: 20px 24px;
+  padding: 20px 24px;
   font-size: 16px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .galery .text {
   margin-top: 0;
