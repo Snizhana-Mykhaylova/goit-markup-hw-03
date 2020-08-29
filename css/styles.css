@@ -281,10 +281,10 @@ img {
   margin-right: 30px;
   width: calc((100% - 90px) / 4);
 }
-
 .staff-text {
-  padding-top: 30px;
+  margin-top: 30px;
 }
+
 .centered {
   text-align: center;
 }
